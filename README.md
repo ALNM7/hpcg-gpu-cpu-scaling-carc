@@ -48,7 +48,7 @@ Experiments were executed on the **Easley HPC cluster**.
 
 Optimal CPU performance occurs near **N ≈ 96³**.
 
-![CPU Performance](docs/cpu_problem_size.png)
+![CPU Performance](docs/1.png)
 
 Observations:
 
@@ -60,7 +60,7 @@ Observations:
 
 ### Multi-Node CPU Scaling
 
-![CPU Scaling](docs/cpu_scaling_nodes.png)
+![CPU Scaling](docs/2.png)
 
 Observations:
 
@@ -82,7 +82,7 @@ However, scaling efficiency decreases due to:
 
 # CPU Strong Scaling
 
-![CPU Strong Scaling](docs/cpu_strong_scaling.png)
+![CPU Strong Scaling](docs/3.png)
 
 Strong scaling experiments show:
 
@@ -101,7 +101,7 @@ Scaling is strongest **within a single node**, where communication overhead is l
 
 ## Strong Scaling (Fixed Problem Size)
 
-![GPU Strong Scaling](docs/gpu_strong_scaling.png)
+![GPU Strong Scaling](docs/4.png)
 
 Performance increases from:
 
@@ -123,7 +123,7 @@ Near-linear scaling indicates extremely low serial overhead.
 
 ## Weak Scaling (Increasing Problem Size)
 
-![GPU Weak Scaling](docs/gpu_weak_scaling.png)
+![GPU Weak Scaling](docs/5.png)
 
 Weak scaling experiments increase problem size proportionally:
 
@@ -150,7 +150,7 @@ Superlinear scaling occurs due to:
 
 # Strong Scaling Speedup (Amdahl’s Law)
 
-![Strong Scaling](docs/gpu_speedup.png)
+![Strong Scaling](docs/6.png)
 
 Measured GPU speedup:
 
@@ -169,7 +169,7 @@ The near-linear scaling demonstrates:
 
 # Weak Scaling Speedup (Gustafson’s Law)
 
-![Weak Scaling](docs/gustafson_scaling.png)
+![Weak Scaling](docs/7.png)
 
 Weak scaling results exceed ideal scaling:
 
@@ -184,7 +184,7 @@ This superlinear behavior highlights the effectiveness of GPU architectures for 
 
 # GPU vs CPU Performance
 
-![GPU vs CPU](docs/gpu_vs_cpu.png)
+![GPU vs CPU](docs/8.png)
 
 Performance comparison:
 
@@ -206,7 +206,7 @@ GPU architectures provide a significant advantage for **sparse linear algebra wo
 
 # Parallel Efficiency Comparison
 
-![Parallel Efficiency](docs/parallel_efficiency.png)
+![Parallel Efficiency](docs/9.png)
 
 Efficiency comparison:
 
